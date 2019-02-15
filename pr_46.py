@@ -70,8 +70,8 @@ def Repeat(x):
         if i in repeated:
             duplicity.append(i)
     print(duplicity)
-    pocet = len(duplicity) - len(repeated)
-    print("Počet duplicit:", pocet)
+    count = len(duplicity) - len(repeated)
+    print("Počet duplicit:", count)
     return repeated
 
 
@@ -108,8 +108,8 @@ def repeat2(numbers):
     diff = c1 - c2
     result2 = (list(diff.elements()))
 
-    pocet = len(result2)
-    print("Počet duplicit je:", pocet)
+    count = len(result2)
+    print("Počet duplicit je:", count)
     return (result2)
 
 
@@ -120,7 +120,7 @@ def savetotxt2(result):
     """uloží konkrétní duplicity do textového dokumentu
     navíc spočítá jejich celkový počet
     Vstup: list duplicitních hodnot
-    Výstup: textový soubor s názevem result"""
+    Výstup: textový soubor s názvem result.txt"""
     print(result)
     final_count = str(len(result))
     final_result = str(result)
