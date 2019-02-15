@@ -81,7 +81,7 @@ result1 = (Repeat(numbers))
 def savetotxt1(result):
     """uloží konkrétní duplicity do textového dokumentu
     Vstup: list duplicitních hodnot
-    Výstup: textový soubor s názevem result"""
+    Výstup: textový soubor s názevem result_1.txt"""
     print(result)
     final_result = str(result)
     final_result = final_result.replace("[", "")
